@@ -1,1 +1,45 @@
+body{
+    display: flex;
+    border: 5px black dotted;
+    height: 75em;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: palegoldenrod;
+}
 
+nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgreen;
+    margin: auto;
+    width: 10em
+}
+
+nav a {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: palevioletred;
+    text-decoration: underline dotted black;
+}
+
+.intro{
+    background-color: palevioletred;
+}
+
+.teams{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+footer{
+    display: flex;
+}
